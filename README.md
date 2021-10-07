@@ -10,6 +10,5 @@ Hoping to get some help finishing out this site as well.
 
 ## How you can help
 
-1. Add MDX support for this site
-2. Contribute your favorite patterns in Svelte with code examples
-3. Help build out this site
+1. Contribute your favorite patterns in Svelte with code examples
+2. Help build out this site
