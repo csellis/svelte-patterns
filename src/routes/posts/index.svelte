@@ -29,23 +29,28 @@
 	<div class="relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl">
 		<div>
 			<h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Patterns</h2>
-			<p class="mt-3 text-xl text-gray-500 sm:mt-4" />
+			<p class="mt-3 text-xl text-gray-500 sm:mt-4">
+				What is a pattern? It's anything from your favorite component, a deploy technique, or a
+				series of components. It's not strict in any sense and is broadly applicable to Svelte.
+			</p>
 		</div>
 		<div class="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
 			{#each posts as post}
 				<div>
 					<div>
 						<!-- <a href="#" class="inline-block">
-						<span
-							class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800"
-						>
-							Article
-						</span>
-					</a> -->
+							<span
+								class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800"
+							>
+								Article
+							</span>
+						</a> -->
 					</div>
 					<a href="/posts/{post.slug}" class="block mt-4">
 						<p class="text-xl font-semibold text-gray-900">{post.title}</p>
-						<p class="mt-3 text-base text-gray-500" />
+						<p class="mt-3 text-base text-gray-500">
+							{post?.description || ''}
+						</p>
 					</a>
 					<div class="mt-6 flex items-center">
 						<div class="flex-shrink-0">
@@ -63,7 +68,7 @@
 								{post?.author || 'Author'}
 							</p>
 							<div class="flex space-x-1 text-sm text-gray-500">
-								<time datetime="2020-03-16">{post?.date} </time>
+								<time>{post?.date} </time>
 								<!-- <span aria-hidden="true"> &middot; </span>
 								<span> 6 min read </span> -->
 							</div>
@@ -74,9 +79,3 @@
 		</div>
 	</div>
 </div>
-
-<ul>
-	{#each posts as post}
-		<li><a href={`/posts/${post.slug}`}>{post.title}</a></li>
-	{/each}
-</ul>

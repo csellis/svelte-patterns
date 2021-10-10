@@ -10,24 +10,25 @@
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "next",
+		"autoprefixer": "^10.3.1",
+		"cssnano": "^5.0.6",
 		"eslint": "^7.22.0",
 		"eslint-config-prettier": "^8.1.0",
 		"eslint-plugin-svelte3": "^3.2.0",
+		"mdsvex": "^0.9.8",
+		"postcss": "^8.3.5",
+		"postcss-load-config": "^3.1.0",
 		"prettier": "~2.2.1",
 		"prettier-plugin-svelte": "^2.2.0",
 		"svelte": "^3.34.0",
-		"postcss": "^8.3.5",
-		"postcss-load-config": "^3.1.0",
 		"svelte-preprocess": "^4.7.4",
-		"autoprefixer": "^10.3.1",
-		"cssnano": "^5.0.6",
-		"tailwindcss": "^2.2.4",
-		"mdsvex": "^0.9.8"
+		"tailwindcss": "^2.2.4"
 	},
 	"type": "module",
 	"dependencies": {
 		"@auth0/auth0-spa-js": "^1.17.0",
 		"@tailwindcss/aspect-ratio": "^0.2.1",
+		"@tailwindcss/typography": "^0.4.1",
 		"base-64": "^1.0.0",
 		"dotenv": "^10.0.0",
 		"svelte-hero-icons": "^2.4.0"
