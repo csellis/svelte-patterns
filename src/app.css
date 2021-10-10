@@ -6,3 +6,18 @@
 }
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	header.post {
+		@apply text-lg max-w-prose mx-auto;
+	}
+	header.post h1 {
+		@apply mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl;
+	}
+	section.post {
+		@apply mt-6 prose prose-lg text-gray-500 mx-auto;
+	}
+	section h1 {
+		@apply text-4xl;
+	}
+}
