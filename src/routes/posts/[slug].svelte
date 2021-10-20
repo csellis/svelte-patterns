@@ -103,6 +103,6 @@
 		</h1>
 	</header>
 	<section class="post">
-		<Post />
+		<svelte:component this={Post} />
 	</section>
 </div>
