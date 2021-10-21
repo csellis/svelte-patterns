@@ -9,7 +9,7 @@
 		{siteSettings.title}. All rights reserved.
 	</span>
 	<span class="text-gray-400 flex space-x-2">
-		<a href="#">
+		<a href="https://www.facebook.com/">
 			<span class="sr-only">Facebook</span>
 			<svg
 				class={socialCss}
@@ -22,7 +22,7 @@
 				/></svg
 			>
 		</a>
-		<a href="#">
+		<a href="https://www.twitter.com">
 			<span class="sr-only">Twitter</span>
 			<svg
 				class={socialCss}
@@ -35,7 +35,7 @@
 				/></svg
 			>
 		</a>
-		<a href="#">
+		<a href="https://www.linkedin.com">
 			<span class="sr-only">LinkedIn</span>
 			<svg
 				class={socialCss}
