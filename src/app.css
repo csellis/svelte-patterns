@@ -17,7 +17,4 @@
 	section.post {
 		@apply mt-6 prose prose-lg text-gray-500 mx-auto;
 	}
-	section h1 {
-		@apply text-4xl;
-	}
 }
