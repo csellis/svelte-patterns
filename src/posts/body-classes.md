@@ -27,4 +27,4 @@ There's alternative ideas floating out there how this should work. I couldn't ge
 This thread discusses it:
   [Change body class via <svelte:body />](https://github.com/sveltejs/svelte/issues/3105)
   
-<svelte:body> only seems to work for actions, not classes.
+`<svelte:body>` only seems to work for actions, not classes.
