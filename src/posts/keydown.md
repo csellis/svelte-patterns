@@ -9,7 +9,7 @@ date: 10/8/21
 
 Detecting keypress events is useful for creating webapps and websites that feel like native applications. The good news is Svelte makes it super easy to do this.
 
-```js
+```svelte
 <script>
   let keyPressed = ''
   function handleKeyUp(event) {
